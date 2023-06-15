@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Java,Python,JavaScript">
+    <meta name="description" content="Free Programing Tutorials">
+    <meta name="author" content="Furkan Yiğit">
+    <title>Free Programming Tutorials</title>
+    <style>
+        h2 {
+            width: 100px;
+            height: 100px;
+        }
+        span {
+            border: 1px solid red;
+        }
+    </style>
+    <!--style komutu ile blok-level element olan h2'i (Başlık H2) inline element (100pxX100px) yaptık-->
+    <!-- Fakat aynı işlemi a (Link) için yapamayız. Kendisi zaten inline bir element -->
+    <!-- width ve height sadece block-level elementlerde verilir-->
+</head>
+<body style="background-color: aqua;">
+    <h1 style="color:red;font-size: 60px;">Başlık H1</h1>
+    <h2>Başlık H2</h2>
+    <h3>Başlık H3</h3>
+    <h4>Başlık H4</h4>
+    <h5>Başlık H5</h5>
+    <h6>Başlık H6</h6>
+    <p style="font-size: 40px;">Lorem <strong>ipsum</strong> , dolor <em>sit</em> amet <small>consectetur</small>
+        adipisicing <mark>elit.</mark> Nobis, <sub>voluptas.</sub>
+    </p>
+    <!-- hr etiketi düz çizgi çizer.-->
+    <hr>
+    <!-- br etiketi alt satıra geçer.-->
+    <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Error, perspiciatis!</p>
+    <!-- pre etiketi şiir vs. için kullanılır.-->
+    <pre>
+        Korkma, sönmez bu şafaklarda yüzen al sancak;
+        Sönmeden yurdumun üstünde tüten en son ocak.
+        O benim milletimin yıldızıdır, parlayacak;
+        O benimdir, o benim milletimindir ancak.
+    </pre>
+    <!-- <a> </a> etiketi metnin içine link gömmek için kullanılır.-->
+    <!-- href etiketi metnin üzerine tıklandığında gidilecek adresi girmek için kullanılır.-->
+    <a href="3.Styling.html" target="_blank">Styling Dökümanı</a>
+    <a href="4.Formatting.html" target="_blank">Formatting Dökümanı</a>
+    <a href="http://www.google.com.tr" target="_blank" title="Google Linki">Google'a Gitmek İçin Tıklayınız</a> <br>
+    <!-- ./ kendi klasörümüzden resim çekmek için kullanılır.-->
+    <!-- src attributesi imagenin nereden geldiğini söylemek için kullanılır.-->
+    <img src="./images/ABBA.jpg" height="250" alt="ABBA2">
+    <img src="https://www.cumhuriyet.com.tr/Archive/2021/10/29/1880529/kapak_104653.jpg" width="450" alt="ABBA"> <br>
+    <a href="https://tr.wikipedia.org/wiki/ABBA" target="_blank" title="ABBA Wikipedia"><img
+            src="https://www.cumhuriyet.com.tr/Archive/2021/10/29/1880529/kapak_104653.jpg" height="200" alt="ABBA"></a>
+    <br>
+    <video src="./videos/DON'T SAY_ I've never been in London. [Grammar MISTAKES].mp4" width="300px" controls
+        autoplay>Tarayıcı bu içerik türünü desteklemiyor.</video>
+    <audio src="./audios/DONT SAY Ive never been in London. [Grammar MISTAKES].mp3" controls autoplay>Tarayıcı bu
+        içeriği desteklemiyor.</audio>
+    <div>Bu bir div</div>
+    <span>Bu bir span</span>
+    <p>Lorem ipsum dolor <span>sit amet</span> consectetur adipisicing elit. Tempore, vero?</p>
+    <!-- id'ler asla aynı olamaz. hata almayız ancak aynı olmamalı-->
+    <div id="navbar" class="navbar-menu"></div>
+    <div id="main"></div>
+    <ul>
+        <!-- classlar birden fazla yerde aynı olabilirler-->
+        <li class="article-item d-flex d-flex1"></li>
+        <li class="article-item"></li>
+        <li class="article-item"></li>
+        <li class="article-item"></li>
+    </ul>
+    <div id="footer"></div>
+</body>
+</html>
